@@ -55,11 +55,8 @@ No complex installation is required. Simply download or clone the script:
 
 ```bash
 # Clone the repository (optional)
-# git clone <your-repo-url>
-# cd <your-repo-dir>
-
-# Or just download the script
-# wget <url-to-gnmap_prism.py>
+# git clone https://github.com/xbz0n/gnmap_prism
+# cd gnmap_prism
 
 # Ensure the script is executable (optional)
 # chmod +x gnmap_prism.py
