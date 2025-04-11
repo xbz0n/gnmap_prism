@@ -54,7 +54,6 @@
 No complex installation is required. Simply download or clone the script:
 
 ```bash
-# Clone the repository (optional)
 # git clone https://github.com/xbz0n/gnmap_prism
 # cd gnmap_prism
 
@@ -123,14 +122,6 @@ Depending on the options used, the following files may be created in the output 
 -   `smb-urls.txt`: List of potential SMB shares/hosts.
 -   `[tool]-targets.txt`: Target lists formatted for specific tools (e.g., `testssl-targets.txt`).
 -   `segmentation-report.txt`: Analysis of network reachability vs. open ports for the defined scope.
-
-## Troubleshooting
-
--   **File Not Found:** Ensure the path to the `.gnmap` input file is correct.
--   **Permission Denied:** Check if you have write permissions for the output directory location.
--   **Parsing Errors:** Malformed or non-standard `.gnmap` lines might cause warnings or incomplete results. Ensure the input file was generated correctly with `nmap -oG`.
--   **Scope Issues:** If automatic scope detection fails, provide the scope manually using `--scope` or `--scope-file`.
--   **No Output Files:** Check the console output. If no hosts were found up or no open ports were detected according to your scan parameters, some files might be empty or not generated.
 
 ## Contributing
 
